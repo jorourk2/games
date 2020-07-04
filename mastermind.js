@@ -40,9 +40,8 @@ function generatePassword(){
     return secretPass;
 }
 
-function min(x,y){
-    if (x <= y) return x;
-    else return y;
+function min(x,y) {
+    return (x <= y ? x : y)
 }
 
 function initializeColorCount(){
