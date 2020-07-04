@@ -179,7 +179,7 @@ function drawSecondLayer(){
         ctx2.fillRect(TM + sqDim*numCols + 0.2*sqDim,currentRowTop + 0.3*sqDim, 0.6*sqDim, 0.4*sqDim);
         ctx2.fillStyle = "#000000";
         ctx2.font = "9px Arial";
-        ctx2.fillText("Submit", TM + sqDim*numCols + 0.2*sqDim,currentRowTop + 0.55*sqDim);
+        ctx2.fillText("  ✓  ", TM + sqDim*numCols + 0.2*sqDim,currentRowTop + 0.55*sqDim);
     }
     if (gameWon){
         var X = thePassword;
