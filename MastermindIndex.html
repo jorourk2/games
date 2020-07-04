@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- This will eventually have the full playing area,-->
+    <!-- including the board and card areas-->
+    <!-- <canvas id="myCanvas" width = "1000" height = "750" style="border:1px solid #000000;">
+    Your browser does not support the canvas element.
+    </canvas> -->
+    <div onclick = "sillyClick(event)" style="position: relative;">
+        <canvas id="layer1" width="500" height="550" 
+          style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id="layer2" width="500" height="550" 
+          style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+    </div>
+    <script src="mastermind.js"></script>
+</body>
+</html>
